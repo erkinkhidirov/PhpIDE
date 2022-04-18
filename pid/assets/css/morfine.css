@@ -1,0 +1,1567 @@
+body{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-family: 'open_sansregular', arial;
+    font-weight: 400;
+    color: #111111;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+div.footer{
+    position: fixed;
+    bottom: 0px;
+    padding: 2px 0px;
+    text-align: center;
+    background: #f8f8f8;
+    left: 0px;
+    width: 100%;
+    border-top: 1px solid #e1e1e1;
+}
+div.footer a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.morfine_security_section .container{
+    justify-content: center;
+    align-items: center;
+}
+.morfine_security_section .morfine_form_section {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.morfine_security_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+.morfine_form_sections .container{
+    display: flex;
+}
+.morfine_form_section{
+    padding: 20px;
+    background: #ffff;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.morf_login_buttons,
+.morfine_form_btn
+{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 40px !important;
+    justify-content: center;
+}
+.generete_password,
+.go_back
+{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    color: #000;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.go_back{
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.go_back i{
+    margin-right: 10px;
+}
+.generete_password:hover,
+.go_back:hover
+{
+    border: 2px solid #0032ff;
+}
+.morfine_form_btn:hover {
+    background: #032bcc;
+}
+.morfine_form_btn i{
+    margin-left: 15px;
+}
+.morfine_form_input input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+    width: 100%;
+}
+.morfine_form_input{
+    border: 2px solid #363636;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #fff;
+}
+.morf_gen_password input{
+    border: none;
+    background: #eaeaea;
+}
+.morfine_form_input_icon{
+    color: #414141;
+    padding: 0px 20px;
+}
+.morf_login_logo img{
+    max-width: 100%;
+    width: 130px;
+}
+.morf_login_logo{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.morfine_form_input input{
+    border: none;
+    margin: 0px;
+    height: 60px;
+    font-size: 22px;
+}
+.morfine_form_btn{
+    padding: 10px 40px;
+    border: none;
+    background: #0032ff;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #ffff;
+}
+.morfine_file_manager_elem_last_access{
+    display: flex;
+    flex-direction: row;
+}
+.morfine_file_manager_elem_name a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+.morf_icon_section{
+    color: #6b6b6b;
+    margin-right: 7px;
+}
+
+.morfine_file_manager_elem_name[data-type="directory"] .morf_icon_section{
+    color: #2e8aff;
+}
+
+.morfine_file_manager_elem_name[data-extension="zip"] .morf_icon_section,
+.morfine_file_manager_elem_name[data-extension="rar"] .morf_icon_section,
+.morfine_file_manager_elem_name[data-extension="tar"] .morf_icon_section
+{
+    color: #e3ad1b;
+}
+
+.morfine_file_manager_elem_block{
+    display: grid;
+    grid-template-columns: 3% 40% 10% 10% 12% 25%;
+    grid-template-areas: "item_1 item_2 item_3 item_4 item_5 item_6";
+    align-items: center;
+    justify-content: end;
+}
+.morfine_file_manager_elem_section{
+    margin-bottom: 0;
+    background: #f3f3f3;
+    padding: 2px 20px;
+    border: 2px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+}
+.morfine_file_manager_elem_section.active{
+
+}
+.morfine_file_manager_elem_section:nth-child(2n) {
+    background: #ebebeb;
+}
+.morfine_file_manager_body_header{
+    display: grid;
+    grid-template-columns: 3% 40% 10% 10% 12% 25%;
+    grid-template-areas: "item_1 item_2 item_3 item_4 item_5 item_6";
+    align-items: center;
+    padding: 5px 20px;
+    background: #ddd;
+    font-size: 14px;
+}
+.morfine_file_manager_elem_control{
+    display: flex;
+}
+.mf-elem{
+    margin: 0px 0px;
+}
+
+.mf-elem-1{
+    grid-area: item_1;
+}
+.mf-elem-2{
+    grid-area: item_2;
+}
+.mf-elem-3{
+    grid-area: item_3;
+}
+.mf-elem-41{
+    grid-area: item_4;
+}
+.mf-elem-5{
+    grid-area: item_5;
+}
+.mf-elem-6{
+    grid-area: item_6;
+}
+.mf-elem-7{
+    grid-area: item_7;
+}
+.mf-elem-8{
+    grid-area: item_8;
+}
+.mf-elem-9{
+    grid-area: item_9;
+}
+
+.morfine_file_manager_elem_control .mf_btn{
+    margin: 0px 10px;
+}
+
+
+
+
+.mf_btn{
+    background: #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mf_btn{
+    background: #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.m_editor_mirror{
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    min-width: 600px;
+}
+.m_editor_footer{
+    padding: 20px;
+    background: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+.m_editor_section{
+
+}
+.ui-draggable .ui-dialog-titlebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.morf_w_name_section{
+    width: 60%;
+}
+.morf_w_controll_section{
+    width: 40%;
+    justify-content: flex-end;
+}
+.morf_owner_edit_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.morf_w_name_section input{
+    width: 80%;
+}
+.m_editor_block{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.morfine_file_manager_elem_can,
+.morfine_file_manager_elem_owner
+{
+    display: flex;
+    justify-content: space-between;
+}
+.morfine_file_manager_elem_can_button,
+.morfine_file_manager_elem_owner_button
+{
+    margin-right: 15px;
+}
+.morfine_file_manager_elem_can_button a,
+.morfine_file_manager_elem_owner_button a
+{
+    margin-right: 15px;
+    color: #8b8b8b;
+}
+.morf_chmod_edit_block{
+    display: grid;
+    grid-template-columns: 50px 40px 40px 40px;
+    grid-template-rows: 20px 20px 20px 20px;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.morf_chmod_edit_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m_c_17{
+    margin-top: 10px;
+}
+.m_c_17 input{
+    border: 1px solid #ccc;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+.m_c_17 input:focus,
+.m_c_17 input:active
+{
+    border: 1px solid #ccc;
+}
+.morfine_file_manager_elem_last_access .morf-time{
+    margin-left: 10px;
+}
+.morfine_file_manager_head{
+    display: flex;
+    padding: 15px 20px;
+    background: #ebebeb;
+    position: relative;
+}
+#drag-and-drop-zone .btn{
+    padding: 10px;
+    display: block;
+    background: #272a36;
+}
+.morf_w_controll_section{
+    display: flex;
+}
+.ui-dialog .ui-dialog-title{
+    width: 80%;
+}
+.morf_w_controll_section button{
+    border-radius: 50px;
+    border: none;
+    background: none;
+    border: 2px transparent;
+    display: flex;
+    height: 28px;
+    width: 28px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 10px 20px;
+    position: relative;
+}
+.morf_hidden_element_section{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #dddddd;
+    border-top: 1px solid #bababa;
+    z-index: 999999;
+}
+.morf_hidden_element_block{
+
+}
+.morf_hiden_elem_block{
+    display: flex;
+}
+.morf_hiden_elem_block{
+    display: flex;
+    padding: 5px 10px;
+    background: #dddddd;
+    color: #000;
+    border-radius: 50px;
+    border: 2px solid #a6a6a6;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.morf_f_m_h_elem_reload{
+    margin-left: 20px;
+}
+.morf_search_words_search_block{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 0px 20px;
+}
+.morf_search_words_block{
+    height: 100%;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.morf_search_words_current_path_block{
+    padding: 10px 20px;
+    background: #e9e9e9;
+    font-size: 14px;
+}
+.morf_search_words_current_path_block span:first-child{
+    font-weight: 600;
+}
+.morf_search_words_current_path_block span:last-child{
+    font-style: italic;
+}
+.morf_w_name_section input{
+    width: 80%;
+    background: none;
+    border: none;
+    cursor: all-scroll;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #e9e9e9 !important;
+    height: auto !important;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.ui-widget-header {
+    border-bottom: 1px solid #dcdcdc !important;
+}
+.morfine_file_manager_block{
+    border-radius: 15px;
+    overflow: hidden;
+    background: #ebebeb;
+}
+.morf_reg_password .morfine_file_manager_block{
+    background: #fff;
+}
+.ui-widget.ui-widget-content {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.morf_search_words_result_section{
+    height: 100%;
+}
+.morf_search_words_result_block{
+    height: 100%;
+    position: relative;
+}
+.morf_search_words_no_result{
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.morf_search_words_search_block input{
+    height: 40px;
+    width: 100%;
+    background: none !important;
+    border: none !important;
+}
+.morf_search_words_search_block .m_s_input{
+    width: 90%;
+}
+.morf_search_words_search_section{
+    padding: 20px;
+}
+.morf_h_e{
+    margin: 10px 5px;
+    float: left;
+}
+.morf_hiden_elem_block a{
+    color: #807e7e;
+    width: 20px;
+    font-size: 11px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid #8d8d8d;
+}
+.morf_hiden_elem_block a:hover{
+    border-color: #c31515;
+}
+.morfine_settings_panel{
+    position: absolute;
+    right: 0;
+}
+.morfine_file_manager_section{
+    padding: 60px 0px;
+}
+.morf_f_m_h_elem span{
+    cursor: pointer;
+}
+.morfine_file_manager_path_block{
+    display: flex;
+    align-items: center;
+}
+.morfine_file_manager_path_body_param_elem a{
+    background: #dddddd;
+    padding: 5px;
+    border-radius: 50px;
+    color: #717171;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+.morfine_file_manager_path_body{
+    display: flex;
+}
+.morfine_file_manager_path_section{
+    background: #ebebeb;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+}
+.morfine_file_manager_path_body_section{
+    padding-left: 20px;
+}
+.morf_f_m_h_elem_home{
+    margin-right: 20px;
+}
+.morfine_file_manager_path_body_section{
+    width: 100%;
+}
+.morfine_file_manager_path_body_block,
+.morf_search_words_search_block
+{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 20px;
+    border: 2px solid #fff;
+}
+.morfine_file_manager_elem_section:hover{
+    border: 2px solid #3b55d6;
+    border-radius: 5px;
+}
+.morfine_file_manager_path_body_block:hover,
+.morf_search_words_search_block:hover,
+.morf_w_controll_section button:hover,
+.morf_hiden_elem_block:hover,
+.morfine_file_manager_elem_section:hover,
+body.dark .ui-widget.ui-widget-content:hover,
+.ui-widget.ui-widget-content:hover,
+.morfine_security_section .morfine_form_input:hover
+{
+    border-color: #5282fa !important;
+}
+.morf_login_logo img:hover{
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+.m_prev_next_elem:hover,
+.morf_f_m_h_elem a:hover,
+.morf_f_m_h_elem span:hover
+{
+    color: #5282fa !important;
+}
+.morfine_file_manager_elem_section.active{
+    border-color: #5282fa !important;
+}
+.morfine_file_manager_path_body_param_elem:first-child{
+    margin-right: 10px;
+}
+.morfine_file_manager_path_body_params{
+    display: flex;
+}
+.morfine_file_manager_path_body_input{
+    width: 100%;
+    cursor: text;
+}
+.morfine_file_manager_path_body_input input{
+    width: 100%;
+    border: none;
+    height: 32px;
+    background: none !important;
+    border: none !important;
+}
+.morfine_file_manager_path_body_input input:focus,
+.morfine_file_manager_path_body_input input:active,
+input:active,
+input:focus
+{
+    outline: none;
+    border: none;
+}
+.morf_search_words_search_block {
+    border: 2px solid #d3d3d3;
+}
+
+.morf_f_m_h_elem{
+    padding: 0px 15px;
+    padding-right: 35px;
+    padding-left: 0;
+}
+.morfine_file_manager_path_body_input input{
+    padding-left: 10px !important;
+}
+.morf_create_block,
+.morf_create_dir_file_name_section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.morfine_file_manager_elem_file_size{
+    position: relative;
+}
+.morfine_file_manager_elem_file_size .morf_preloader_section{
+    background: none !important;
+}
+.morfine_file_manager_elem_file_size .lds-ring {
+    width: 15px;
+    height: 15px;
+}
+.morfine_file_manager_elem_file_size .morf_preloader_section {
+    align-items: center;
+    justify-content: start;
+    top: -8px;
+}
+body.dark .morfine_file_manager_elem_file_size .lds-ring div {
+    border: 3px solid #bebcbc;
+    border-color: #7a7a7a transparent transparent transparent;
+}
+.morfine_file_manager_elem_file_size .lds-ring div {
+    width: 15px;
+    height: 15px;
+}
+.morf_ssh_elem{
+    margin-bottom: 15px;
+}
+.morf_window_content_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.get_folder_size{
+    text-decoration: none;
+    font-size: 12px;
+    color: #848484;
+    border: 1px solid #434343;
+    padding: 3px 15px;
+    border-radius: 100px;
+}
+.morf_create_section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.morf_upload_section.ui-dialog-content.ui-widget-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.morf_upload_block{
+    min-width: 400px;
+}
+.dm-uploader {
+    padding: 40px;
+}
+.dm-uploader:hover{
+    border: 3px dashed #359fe5 !important;
+}
+.dm-uploader .btn input[type=file] {
+    cursor: pointer;
+    height: 42px;
+}
+#drag-and-drop-zone h3{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #000;
+}
+.dm-uploader {
+    border: 3px dashed #d9d9d9 !important;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.morf_create_elem{
+    display: flex;
+    margin: 0px 10px;
+}
+.morf_create_elem input{
+    margin-right: 5px;
+}
+.morf_f_m_h_elem_next{
+    margin-left: 20px;
+}
+.morfine_file_manager_prev_next{
+    display: flex;
+}
+.morf_sub_section{
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+.morf_sub_block{
+    background: #ebebeb;
+    padding: 0;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 15px;
+    border: 1px solid #c2c2c2;
+    overflow: hidden;
+}
+.morf_sub_block li{
+    border-bottom: 1px solid #c2c2c2;
+}
+.morf_sub_block li a i{
+    margin-right: 5px;
+}
+.morf_sub_block li:last-child{
+    border-bottom: none;
+}
+.morf_sub_block ul li a{
+    text-decoration: none;
+    padding: 15px 40px;
+    display: block;
+    position: relative;
+}
+.morf_sub_block ul li a .morf_preloader_section{
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    width: 30px;
+    background: #e9e9e9;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.morf_sub_block ul li a.invisible{
+    color: #777777;
+    cursor: default;
+    pointer-events: none;
+}
+.morf_sub_block ul li a.active{
+    padding-left: 65px;
+    pointer-events: none;
+}
+.morf_sub_block ul li a .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+body.dark .morf_sub_block ul li a .morf_preloader_section {
+    background: none;
+}
+body.dark .morf_sub_block ul li a .lds-ring div {
+    border: 2px solid #bebcbc;
+    border-color: #9e9e9e transparent transparent transparent;
+}
+.morf_sub_block ul li a .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin: 8px;
+    border: 8px solid #bebcbc;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #d1d1d1 transparent transparent transparent;
+}
+.morf_sub_block ul li a:hover{
+    background: #d6d6d7;
+    color: #000000;
+}
+.morf_sub_section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.morf_f_m_h_elem:hover .morf_sub_section{
+    display: block;
+}
+.dm-uploader {
+    border: 3px dashed #272a36 !important;
+    text-align: center;
+    color: #fff;
+}
+.dm-uploader.active {
+    border-color: red;
+
+    border-style: solid;
+}
+
+
+/* width */
+.ace_scrollbar-v::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+.ace_scrollbar-v::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.ace_scrollbar-v::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.87);
+    cursor: pointer;
+}
+
+/* Handle on hover */
+.ace_scrollbar-v::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+.ace_scrollbar-h::-webkit-scrollbar {
+    height: 12px;
+}
+
+/* Track */
+.ace_scrollbar-h::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.ace_scrollbar-h::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.87);
+    cursor: pointer;
+}
+
+/* Handle on hover */
+.ace_scrollbar-h::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: 0;
+    background: none;
+    overflow: auto;
+    width: auto !important;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    height: auto !important;
+    padding: 0px;
+}
+.ui-resizable-e,
+.ui-resizable-w
+{
+    cursor: ew-resize;
+}
+.ui-resizable-n,
+.ui-resizable-s
+{
+    cursor: ns-resize;
+}
+.ui-dialog .ui-dialog-content {
+    overflow: unset;
+}
+.ui-icon {
+    text-indent: unset !important;
+}
+
+
+
+
+
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #bebcbc;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #d1d1d1 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.morf_preloader_section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #e9e9e9;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.morf_search_words_section .morfine_file_manager_main_body_section .morfine_file_manager_elem_block {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    grid-template-areas: "item_1 item_2 item_3";
+    align-items: center;
+    justify-content: end;
+}
+
+.morf_search_words_section .morfine_file_manager_body_header {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    grid-template-areas: "item_1 item_2 item_3";
+    align-items: center;
+    padding: 10px 20px;
+    background: #ddd;
+    font-size: 14px;
+}
+.ui-dialog .morf_search_words_section.ui-dialog-content {
+    overflow: auto;
+}
+.morfine_file_manager_elem_edit a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #848484;
+    border: 1px solid #434343;
+    padding: 3px 15px;
+    border-radius: 100px;
+    text-align: center;
+}
+.morf_f_m_h_elem a,
+.morf_f_m_h_elem span
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #111111;
+}
+.morf_create_block .morf_create_elem{
+    padding: 15px 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #454545;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.morf_create_block .morf_create_elem input{
+    display: none;
+}
+.morf_create_block .morf_create_elem:hover{
+    border-color: #5282fa !important;
+}
+.morf_create_block .morf_create_elem.active{
+    border-color: #5282fa !important;
+}
+.m_prev_next_elem{
+    cursor: pointer;
+}
+
+.m_prev_next_elem[data-paths="[]"]{
+    color: #878787;
+    cursor: default;
+    pointer-events: none;
+}
+
+.ui-button.ui-corner-all.ui-widget.disable .morf_btn_preloader_section .lds-ring div {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bebcbc;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #ffffff transparent transparent transparent;
+}
+.ui-button.ui-corner-all.ui-widget.disable{
+    border: 1px solid #000000;
+    background: #000000;
+    font-weight: normal;
+    padding-left: 40px;
+    color: #fff;
+    pointer-events: none;
+}
+.ui-button.ui-corner-all.ui-widget.disable .morf_btn_preloader_section{
+    position: absolute;
+    left: 0;
+    top: -17px;
+}
+
+.ui-dialog-buttonset button.disable span{
+
+    display: none;
+
+}
+.ui-dialog-buttonset button.disable .lds-ring {
+    width: 0px;
+    height: 0px;
+}
+.ace_editor.ace_autocomplete {
+    border-radius: 10px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    border-radius: 0;
+    display: flex;
+}
+.ace_tooltip {
+    background-color: #171920;
+    background-image: linear-gradient(to bottom, #272a36, rgb(39 42 54));
+    border: 1px solid #171920;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    color: #fff7f7;
+    max-width: 100%;
+    padding: 10px 15px;
+    position: fixed;
+    z-index: 999999;
+    box-sizing: border-box;
+    cursor: default;
+    white-space: pre;
+    word-wrap: break-word;
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    pointer-events: none;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:first-child{
+    background: #179b60;
+    border: none;
+    color: #fff;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:first-child:hover{
+    background: #0d7f4c;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset button:last-child{
+    background: #ededed;
+    border: 1px solid #ececec;
+    color: #797979;
+}
+.morfine_security_section .morfine_form_section {
+    border-radius: 20px;
+}
+.morf_archive_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.morf_create_dir_file_name_field label{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    color: #575757;
+}
+.morf_responce_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.morf_responce_block .m_r_icon{
+    color: #5ac229;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5ac229;
+    border-radius: 100%;
+    font-size: 36px;
+}
+.morfine_file_manager_main_body_section{
+    min-height: 200px;
+    font-size: 14px;
+}
+.morf_w_name_section input{
+    font-family: open_sansbold, Arial;
+}
+.morf_downloadurl_block input{
+    width: 100%;
+}
+.morf_downloadurl_block{
+    padding: 30px 50px;
+}
+.morfine_file_manager_path_body_param_elem a{
+    cursor: pointer;
+}
+
+.morfine_file_manager_path_body_param_elem a:hover,
+.header_path_elem a:hover
+{
+    background: #5282fa !important;
+    color: #fff !important;
+}
+input.error{
+    border-color: #f78484 !important;
+}
+.morfine_form_title h4{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'open_sansbold';
+}
+.morf_gen_password{
+    padding: 0px 40px !important;
+}
+.morf_gen_password input{
+    width: 100%;
+    height: 40px;
+    padding: 0px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.dark_version_section{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.dark_version_block{
+    color: #fff;
+    display: flex;
+    border: 1px solid #bcbcbccc;
+    padding: 5px 5px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.dark_version_elem{
+    padding: 2px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000;
+}
+.dark_version_elem:first-child{
+    margin-right: 5px;
+}
+.dark_version_elem.active{
+    border-radius: 50px;
+    background: #3d3d3d;
+    color: #fff;
+}
+.morf_check_all input{
+    margin-right: 0px;
+    margin-left: 6px;
+}
+.m_dialog_section{
+    display: none;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    margin-top: 0;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: 0.5em 15px 0.5em 0;
+    border-radius: 50px;
+}
+.morf_ssh_elem_input,
+.morf_create_dir_file_name_field,
+.morf_owner_edit_block .m_o_1 div
+{
+    border: 1px solid #6d6d6d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.morf_ssh_elem_input input,
+.morf_create_dir_file_name_field input,
+.morf_owner_edit_block .m_o_1 div input
+{
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.morf_w_controll_section button:hover{
+    color: #0079ff;
+}
+.ace-xcode .ace_gutter,
+.ace-dracula .ace_gutter
+{
+    width: 90px !important;.ui-dialog-buttonpane .ui-dialog-buttonset button:first-child
+}
+.ace-xcode .ace_gutter {
+    background: #f1f1f1;
+}
+.ace_scroller {
+    left: 90px !important;
+}
+.ace_gutter-layer {
+    width: 90px !important;
+}
+.ace_gutter-cell {
+    padding-right: 28px !important;
+    text-align: left;
+}
+.ace_fold-widget {
+    position: absolute;
+    right: 25px;
+    border: 1px solid #656565;
+    width: 15px;
+    height: 15px !important;
+    border-radius: 100%;
+}
+.password_incorrect{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: #ebebeb;
+    padding: 20px;
+    border-radius: 10px;
+}
+.header_preloader .morf_preloader_section{
+    position: unset;
+    background: none;
+}
+
+.header_preloader .lds-ring div {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7c2d2d;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #6b6b6b transparent transparent transparent;
+    margin: 0px;
+}
+.header_preloader .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.header_preloader{
+    position: relative;
+}
+.header_preloader .morf_preloader_section{
+    position: absolute;
+    right: -20px;
+}
+.header_path_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_path_elem a{
+    padding: 4px 10px;
+    display: block;
+    border-radius: 50px;
+    background: #ebebeb;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #404040;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.header_path_elem a:hover{
+    background: #ebebeb;
+}
+.morfine_file_manager_path_body_input input {
+    display: none;
+}
+.tries_to_login{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f1f1f1;
+    max-width: 500px;
+}
+.try_num{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f00;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-family: 'open_sansbold';
+}
+
+
+
+
+
+
+
+body.dark{
+    background: #272a36;
+}
+body.dark .morfine_file_manager_head {
+    background: #171920;
+}
+body.dark .morf_f_m_h_elem a,
+body.dark .morf_f_m_h_elem
+{
+    color: #d3d3d3;
+}
+body.dark .ui-dialog .ui-dialog-titlebar {
+    background: #171920;
+}
+body.dark .ui-widget.ui-widget-content {
+    border: 1px solid #30333f !important;
+}
+body.dark .ui-widget-header {
+    border: 1px solid #171920;
+}
+body.dark .morf_w_name_section input {
+    color: #fff;
+    cursor: all-scroll;
+}
+body.dark .morf_w_controll_section button {
+    color: #8d8d8d;
+}
+body.dark .ui-widget-header {
+    border-bottom: 1px solid #171920 !important;
+}
+body.dark .ui-widget-content {
+    border: none;
+    background: #1d1f27;
+    color: #929292;
+}
+body.dark .morfine_file_manager_path_section {
+    background: #171920;
+    border-top: 1px solid #272a35;
+}
+body.dark .morfine_file_manager_block{
+    background: #171920;
+}
+body.dark .morfine_file_manager_body_header {
+    background: #171920;
+    border-top: 1px solid #272a35;
+    border-bottom: 1px solid #272a35;
+    color: #6b6b6b;
+}
+body.dark .morfine_file_manager_elem_can_button a,
+body.dark .morfine_file_manager_elem_owner_button a
+{
+    color: #6b6b6b;
+}
+body.dark .morfine_file_manager_elem_section {
+    background: #171920;
+}
+body.dark .morfine_file_manager_elem_section:nth-child(2n) {
+    background: #1d1f27;
+}
+body.dark .morfine_file_manager_elem_name a {
+    color: #ffffff;
+}
+body.dark .morfine_file_manager_elem_file_size,
+body.dark .morfine_file_manager_elem_can_name,
+body.dark .morfine_file_manager_elem_last_access,
+body.dark .morfine_file_manager_elem_owner_name
+{
+    color: #8d8d8d;
+}
+body.dark .morfine_file_manager_path_body_block,
+body.dark .morf_search_words_search_block {
+    background: #1d1f27;
+    border: 2px solid #3e4251;
+}
+body.dark .morfine_file_manager_path_body_input input {
+    color: #fff;
+}
+body.dark .m_prev_next_elem[data-paths="[]"] {
+    color: #4a4a4a;
+}
+body.dark .morf_preloader_section {
+    background: #272a36;
+}
+body.dark .lds-ring div {
+    border: 8px solid #bebcbc;
+    border-color: #171920 transparent transparent transparent;
+}
+body.dark .morf_search_words_current_path_block {
+    background: #2d303a;
+    color: #808080;
+}
+body.dark .morf_search_words_search_block input {
+    color: #fff;
+}
+body.dark .header_path_elem a {
+    background: #272a36;
+    color: #cbcbcb;
+}
+body.dark .morf_search_words_search_block .m_s_icon a,
+body.dark .morf_search_words_result_section .morfine_file_manager_elem_line,
+body.dark .morfine_file_manager_elem_edit a
+{
+    color: #fff;
+}
+body.dark .morf_chmod_edit_block {
+    color: #676767;
+}
+body.dark input[type="text"]{
+    background: none;
+    border: 2px solid #676767;
+    min-height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0px 20px;
+}
+body.dark .morfine_form_section {
+    background: #272727;
+}
+body.dark .morf_responce_section{
+    background: #1d1f27;
+}
+body.dark .morf_sub_block ul li a:hover{
+    background: #181a21;
+}
+body.dark #drag-and-drop-zone h3 {
+    color: #fff;
+}
+body.dark .ui-dialog-buttonpane .ui-dialog-buttonset button:last-child {
+    background: #1a1c25;
+    border: 1px solid #303030;
+    color: #797979;
+}
+body.dark .morf_f_m_h_elem a,
+body.dark .morf_f_m_h_elem span {
+    color: #ffffff;
+}
+body.dark .morf_sub_block {
+    background: #1d1f27;
+    border: 1px solid #39393a;
+}
+body.dark .morf_sub_block li {
+    border-bottom: 1px solid #39393a;
+}
+body.dark .dark_version_elem{
+    color: #ffffff;
+}
+body.dark .dark_version_block {
+    border: 1px solid #434343cc;
+}
+body.dark .morf_responce_block .m_r_icon {
+    color: #fff;
+    border: 2px solid #ccc;
+}
+body.dark  .morf_hidden_element_section{
+    background: #171920;
+    border-top: 1px solid #343845;
+}
+body.dark .morf_hiden_elem_block{
+    background: #272a36;
+    color: #ccc;
+    border: 2px solid #393c4a;
+}
+body.dark .morfine_file_manager_path_body_param_elem a {
+    background: #14161c;
+    color: #767676;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.morf_demo_version_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.morf_demo_version_section_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.morf_demo_version_section_block a{
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+    background: #374fe9;
+    color: #fff;
+}
+.morf_demo_version_section_block a:hover{
+    background: #2b40cc;
+}
+.morf_demo_version_section_block a i{
+    margin-left: 10px;
+}
