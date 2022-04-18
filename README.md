@@ -1,5 +1,5 @@
 # PhpIDE
-### :muscle: Professional File Manager & Code Editor.
+### Professional File Manager & Code Editor.
 ___
 
 ### No Installation
