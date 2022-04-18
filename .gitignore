@@ -2,3 +2,4 @@ prepare/
 originaljs/
 .htaccess
 .ide/
+.gitignore
