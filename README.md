@@ -2,7 +2,8 @@
 ### Professional File Manager & Code Editor.
 ___
 
-[Documentation](https://phpide.io/documentation/)
+###[Documentation](https://phpide.io/documentation/)
+
 
 ### No Installation
 Does not require installation. Just copy the pid folder to the root of your site and run it directly in your browser
