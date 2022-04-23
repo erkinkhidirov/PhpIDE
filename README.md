@@ -2,7 +2,7 @@
 ### Professional File Manager & Code Editor.
 ___
 
-###[Documentation](https://phpide.io/documentation/)
+[Documentation](https://phpide.io/documentation/)
 
 
 ### No Installation
