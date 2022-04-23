@@ -20,6 +20,4 @@ ___
 ## System Requirements
 + PHP 7.2 +
 + Linux OS ( Ubuntu, Debian ... )
-+ Desktop Browsers ( Chrome, Opera, Safari ... )
-
 ___
