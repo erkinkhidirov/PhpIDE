@@ -2,6 +2,8 @@
 ### Professional File Manager & Code Editor.
 ___
 
+![phpide](https://phpide.io/wp-content/themes/phpide/assets/img/1.gif)
+
 [Documentation](https://phpide.io/documentation/)
 
 
