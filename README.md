@@ -16,7 +16,7 @@ No need to worry about being hacked. PhpIDE is well protected and requires passw
 
 ![protected](https://phpide.io/wp-content/themes/phpide/assets/img/6.gif)
 
-### Flexible File Manager
+# Flexible File Manager
 Convenient file manager, fast and clear navigation. Create, delete, edit, all the possibilities as on your computer.
 
 ![](https://phpide.io/wp-content/themes/phpide/assets/img/2.gif)
